@@ -4,10 +4,10 @@
 //It should contain 3 list elements.
 import React from "react";
 import ReactDom from "react-dom";
-
+const name = "Hafis";
 ReactDom.render(
   <div>
-    <h2>Fruits</h2>
+    <h2>Fruits {name}</h2>
     <ul>
       <li>First </li>
       <li>Second </li>
