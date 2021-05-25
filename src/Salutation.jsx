@@ -5,10 +5,10 @@ const dynamicCss = {
   color: ""
 };
 
-const hour = new Date(2021, 5, 24, 19).getHours();
+const hour = new Date(2021, 5, 24, 8).getHours();
 find();
 const Salutation = () => {
-  return <h1 style={{ dynamicCss }}>{salute}</h1>;
+  return <h1 style={dynamicCss}>{salute}</h1>;
 };
 function find() {
   if (hour < 12) {

@@ -1,14 +1,10 @@
 import React from "react";
 import ReactDom from "react-dom";
-import Salu from "./Salutation";
-import Header from "./Header";
-import List from "./List";
+import App from "./App";
 
 ReactDom.render(
   <>
-    <Header />
-    <Salu />
-    <List />
+    <App />
   </>,
   document.getElementById("root")
 );
