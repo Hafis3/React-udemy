@@ -7,7 +7,6 @@ import Card from './Card';
 function App() {
   return (
     <div>
-      <Salutation />
       <Card name="Hafis"tel="9846445488" email="hafis3@gmail.com" img="https://picsum.photos/100" />
       <Card name="Sahla"tel="9846445488" email="hafis3@gmail.com" img="https://picsum.photos/100" />
       <Card name="Aman"tel="9846445488" email="hafis3@gmail.com" img="https://picsum.photos/100" />

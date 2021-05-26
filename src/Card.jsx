@@ -1,13 +1,17 @@
 import React from 'react';
 
 function Card(pro){
-return <div> 
-  <h1>My Contact </h1>
-  <p>{pro.name}</p>
-  <img src={pro.img} alt="Img"/>
-  <p>{pro.tel} </p>
-  <p>{pro.email} </p>
-</div>
-}
+return (
+  <div className="container-card"> 
+    <div className="header">
+      <h2>{pro.name}</h2>
+      <img className="round-radius" src={pro.img} alt="Img"/>
+    </div>
+    <div className="footer">
+    <p className="info">{pro.tel} </p>
+    <p className="info">{pro.email} </p>
+    </div>
+  </div>
+)}
 
 export default Card
